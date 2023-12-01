@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.accordian{
+  display:flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px
+ 
+}
+.singleques{
+  border: 3px solid rgb(225, 224, 224);
+  box-shadow: 0px 0px 10px 0px rgb(209, 208, 208);
+  padding:20px;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  gap:10px
+}
+.singleques header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.singleques button{
+  height:30px;
+  width:30px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(11, 88, 127);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
